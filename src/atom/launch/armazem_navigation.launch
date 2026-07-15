@@ -1,0 +1,28 @@
+<launch>
+
+    <!-- Abre o Gazebo com o armazém -->
+    <include file="$(find atom)/launch/atom_warehouse.launch"/>
+
+    <!-- Carrega o mapa salvo -->
+    <include file="$(find navigation_stack)/launch/amcl.launch">
+        <arg name="base_link_name" value="robot_footprint"/>
+    </include>
+
+    <!-- Move Base -->
+    <include file="$(find navigation_stack)/launch/includes/move_base.launch.xml">
+        <arg name="base_frame_id" value="robot_footprint"/>
+        <arg name="odom_topic" value="/atom/odom"/>
+        <arg name="odom_frame_id" value="odom"/>
+        <arg name="cmd_vel_topic" value="/atom/cmd_vel"/>
+        <arg name="custom_param_file"
+             value="$(find navigation_stack)/param/r200_costmap_params.yaml"/>
+    </include>
+
+    <!-- RViz -->
+    <node
+        pkg="rviz"
+        type="rviz"
+        name="rviz"
+        args="-d $(find navigation_stack)/rviz/navigation.rviz"/>
+
+</launch>

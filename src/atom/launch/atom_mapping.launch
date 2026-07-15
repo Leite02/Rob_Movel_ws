@@ -1,0 +1,15 @@
+<launch>
+
+  <!-- Inicia o Gazebo com o armazém -->
+  <include file="$(find atom)/launch/atom_warehouse.launch"/>
+
+  <!-- Inicia o gmapping -->
+  <include file="$(find navigation_stack)/launch/includes/gmapping/r200_gmapping.launch.xml"/>
+
+  <!-- RViz -->
+  <node pkg="rviz"
+        type="rviz"
+        name="rviz"
+        args="-d $(find navigation_stack)/rviz/gmapping.rviz"/>
+
+</launch>

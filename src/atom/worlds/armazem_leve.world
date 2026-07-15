@@ -1,0 +1,188 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+<world name="default">
+  <include><uri>model://sun</uri></include>
+  <include><uri>model://ground_plane</uri></include>
+
+            <model name="estante_0_0">
+              <static>true</static>
+              <pose>-6.0 -6.0 1.0 0 0 0</pose>
+              <link name="link">
+                <collision name="col"><geometry><box><size>1.0 2.0 2.0</size></box></geometry></collision>
+                <visual name="vis"><geometry><box><size>1.0 2.0 2.0</size></box></geometry>
+                  <material><script><uri>file://media/materials/scripts/gazebo.material</uri><name>Gazebo/Grey</name></script></material>
+                </visual>
+              </link>
+            </model>
+            <model name="estante_0_1">
+              <static>true</static>
+              <pose>-2.0 -6.0 1.0 0 0 0</pose>
+              <link name="link">
+                <collision name="col"><geometry><box><size>1.0 2.0 2.0</size></box></geometry></collision>
+                <visual name="vis"><geometry><box><size>1.0 2.0 2.0</size></box></geometry>
+                  <material><script><uri>file://media/materials/scripts/gazebo.material</uri><name>Gazebo/Grey</name></script></material>
+                </visual>
+              </link>
+            </model>
+            <model name="estante_0_2">
+              <static>true</static>
+              <pose>2.0 -6.0 1.0 0 0 0</pose>
+              <link name="link">
+                <collision name="col"><geometry><box><size>1.0 2.0 2.0</size></box></geometry></collision>
+                <visual name="vis"><geometry><box><size>1.0 2.0 2.0</size></box></geometry>
+                  <material><script><uri>file://media/materials/scripts/gazebo.material</uri><name>Gazebo/Grey</name></script></material>
+                </visual>
+              </link>
+            </model>
+            <model name="estante_0_3">
+              <static>true</static>
+              <pose>6.0 -6.0 1.0 0 0 0</pose>
+              <link name="link">
+                <collision name="col"><geometry><box><size>1.0 2.0 2.0</size></box></geometry></collision>
+                <visual name="vis"><geometry><box><size>1.0 2.0 2.0</size></box></geometry>
+                  <material><script><uri>file://media/materials/scripts/gazebo.material</uri><name>Gazebo/Grey</name></script></material>
+                </visual>
+              </link>
+            </model>
+            <model name="estante_1_0">
+              <static>true</static>
+              <pose>-6.0 -2.0 1.0 0 0 0</pose>
+              <link name="link">
+                <collision name="col"><geometry><box><size>1.0 2.0 2.0</size></box></geometry></collision>
+                <visual name="vis"><geometry><box><size>1.0 2.0 2.0</size></box></geometry>
+                  <material><script><uri>file://media/materials/scripts/gazebo.material</uri><name>Gazebo/Grey</name></script></material>
+                </visual>
+              </link>
+            </model>
+            <model name="estante_1_1">
+              <static>true</static>
+              <pose>-2.0 -2.0 1.0 0 0 0</pose>
+              <link name="link">
+                <collision name="col"><geometry><box><size>1.0 2.0 2.0</size></box></geometry></collision>
+                <visual name="vis"><geometry><box><size>1.0 2.0 2.0</size></box></geometry>
+                  <material><script><uri>file://media/materials/scripts/gazebo.material</uri><name>Gazebo/Grey</name></script></material>
+                </visual>
+              </link>
+            </model>
+            <model name="estante_1_2">
+              <static>true</static>
+              <pose>2.0 -2.0 1.0 0 0 0</pose>
+              <link name="link">
+                <collision name="col"><geometry><box><size>1.0 2.0 2.0</size></box></geometry></collision>
+                <visual name="vis"><geometry><box><size>1.0 2.0 2.0</size></box></geometry>
+                  <material><script><uri>file://media/materials/scripts/gazebo.material</uri><name>Gazebo/Grey</name></script></material>
+                </visual>
+              </link>
+            </model>
+            <model name="estante_1_3">
+              <static>true</static>
+              <pose>6.0 -2.0 1.0 0 0 0</pose>
+              <link name="link">
+                <collision name="col"><geometry><box><size>1.0 2.0 2.0</size></box></geometry></collision>
+                <visual name="vis"><geometry><box><size>1.0 2.0 2.0</size></box></geometry>
+                  <material><script><uri>file://media/materials/scripts/gazebo.material</uri><name>Gazebo/Grey</name></script></material>
+                </visual>
+              </link>
+            </model>
+            <model name="estante_2_0">
+              <static>true</static>
+              <pose>-6.0 2.0 1.0 0 0 0</pose>
+              <link name="link">
+                <collision name="col"><geometry><box><size>1.0 2.0 2.0</size></box></geometry></collision>
+                <visual name="vis"><geometry><box><size>1.0 2.0 2.0</size></box></geometry>
+                  <material><script><uri>file://media/materials/scripts/gazebo.material</uri><name>Gazebo/Grey</name></script></material>
+                </visual>
+              </link>
+            </model>
+            <model name="estante_2_1">
+              <static>true</static>
+              <pose>-2.0 2.0 1.0 0 0 0</pose>
+              <link name="link">
+                <collision name="col"><geometry><box><size>1.0 2.0 2.0</size></box></geometry></collision>
+                <visual name="vis"><geometry><box><size>1.0 2.0 2.0</size></box></geometry>
+                  <material><script><uri>file://media/materials/scripts/gazebo.material</uri><name>Gazebo/Grey</name></script></material>
+                </visual>
+              </link>
+            </model>
+            <model name="estante_2_2">
+              <static>true</static>
+              <pose>2.0 2.0 1.0 0 0 0</pose>
+              <link name="link">
+                <collision name="col"><geometry><box><size>1.0 2.0 2.0</size></box></geometry></collision>
+                <visual name="vis"><geometry><box><size>1.0 2.0 2.0</size></box></geometry>
+                  <material><script><uri>file://media/materials/scripts/gazebo.material</uri><name>Gazebo/Grey</name></script></material>
+                </visual>
+              </link>
+            </model>
+            <model name="estante_2_3">
+              <static>true</static>
+              <pose>6.0 2.0 1.0 0 0 0</pose>
+              <link name="link">
+                <collision name="col"><geometry><box><size>1.0 2.0 2.0</size></box></geometry></collision>
+                <visual name="vis"><geometry><box><size>1.0 2.0 2.0</size></box></geometry>
+                  <material><script><uri>file://media/materials/scripts/gazebo.material</uri><name>Gazebo/Grey</name></script></material>
+                </visual>
+              </link>
+            </model>
+            <model name="estante_3_0">
+              <static>true</static>
+              <pose>-6.0 6.0 1.0 0 0 0</pose>
+              <link name="link">
+                <collision name="col"><geometry><box><size>1.0 2.0 2.0</size></box></geometry></collision>
+                <visual name="vis"><geometry><box><size>1.0 2.0 2.0</size></box></geometry>
+                  <material><script><uri>file://media/materials/scripts/gazebo.material</uri><name>Gazebo/Grey</name></script></material>
+                </visual>
+              </link>
+            </model>
+            <model name="estante_3_1">
+              <static>true</static>
+              <pose>-2.0 6.0 1.0 0 0 0</pose>
+              <link name="link">
+                <collision name="col"><geometry><box><size>1.0 2.0 2.0</size></box></geometry></collision>
+                <visual name="vis"><geometry><box><size>1.0 2.0 2.0</size></box></geometry>
+                  <material><script><uri>file://media/materials/scripts/gazebo.material</uri><name>Gazebo/Grey</name></script></material>
+                </visual>
+              </link>
+            </model>
+            <model name="estante_3_2">
+              <static>true</static>
+              <pose>2.0 6.0 1.0 0 0 0</pose>
+              <link name="link">
+                <collision name="col"><geometry><box><size>1.0 2.0 2.0</size></box></geometry></collision>
+                <visual name="vis"><geometry><box><size>1.0 2.0 2.0</size></box></geometry>
+                  <material><script><uri>file://media/materials/scripts/gazebo.material</uri><name>Gazebo/Grey</name></script></material>
+                </visual>
+              </link>
+            </model>
+            <model name="estante_3_3">
+              <static>true</static>
+              <pose>6.0 6.0 1.0 0 0 0</pose>
+              <link name="link">
+                <collision name="col"><geometry><box><size>1.0 2.0 2.0</size></box></geometry></collision>
+                <visual name="vis"><geometry><box><size>1.0 2.0 2.0</size></box></geometry>
+                  <material><script><uri>file://media/materials/scripts/gazebo.material</uri><name>Gazebo/Grey</name></script></material>
+                </visual>
+              </link>
+            </model>
+            <model name="norte"><static>true</static><pose>0 10 1.5 0 0 0</pose>
+              <link name="link"><collision name="col"><geometry><box><size>20 0.5 3</size></box></geometry></collision>
+                <visual name="vis"><geometry><box><size>20 0.5 3</size></box></geometry>
+                  <material><script><uri>file://media/materials/scripts/gazebo.material</uri><name>Gazebo/Blue</name></script></material>
+                </visual></link></model>
+            <model name="sul"><static>true</static><pose>0 -10 1.5 0 0 0</pose>
+              <link name="link"><collision name="col"><geometry><box><size>20 0.5 3</size></box></geometry></collision>
+                <visual name="vis"><geometry><box><size>20 0.5 3</size></box></geometry>
+                  <material><script><uri>file://media/materials/scripts/gazebo.material</uri><name>Gazebo/Blue</name></script></material>
+                </visual></link></model>
+            <model name="leste"><static>true</static><pose>10 0 1.5 0 0 0</pose>
+              <link name="link"><collision name="col"><geometry><box><size>0.5 20 3</size></box></geometry></collision>
+                <visual name="vis"><geometry><box><size>0.5 20 3</size></box></geometry>
+                  <material><script><uri>file://media/materials/scripts/gazebo.material</uri><name>Gazebo/Blue</name></script></material>
+                </visual></link></model>
+            <model name="oeste"><static>true</static><pose>-10 0 1.5 0 0 0</pose>
+              <link name="link"><collision name="col"><geometry><box><size>0.5 20 3</size></box></geometry></collision>
+                <visual name="vis"><geometry><box><size>0.5 20 3</size></box></geometry>
+                  <material><script><uri>file://media/materials/scripts/gazebo.material</uri><name>Gazebo/Blue</name></script></material>
+                </visual></link></model>
+</world>
+</sdf>
