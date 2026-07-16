@@ -6,6 +6,9 @@ Este repositório contém o workspace ROS utilizado para simulação, mapeamento
 
 O projeto foi desenvolvido com foco em uma aplicação de robótica móvel em ambiente interno, utilizando um robô diferencial equipado com sensor **LiDAR** para criação de mapas e posterior navegação autônoma.
 
+<img width="1468" height="1080" alt="VID-20260716-WA0003(2)" src="https://github.com/user-attachments/assets/b92e6d49-1ecf-4dd9-a6a8-bbbb7c13ace2" />
+
+
 ---
 
 # Funcionalidades
@@ -297,6 +300,7 @@ Ao finalizar:
 ```
 ROTA FINALIZADA
 ```
+![Uploading VID-20260716-WA0003(1).jpg…]()
 
 ---
 
