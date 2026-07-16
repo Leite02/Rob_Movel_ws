@@ -301,7 +301,8 @@ Ao finalizar:
 ROTA FINALIZADA
 ```
 
-<img width="860" height="1080" alt="VID-20260716-WA0003(1)" src="https://github.com/user-attachments/assets/fe53d9dc-6974-42ef-baa0-af7353f536ae" />
+<img width="860" height="583" alt="VID-20260716-WA0003(1)" src="https://github.com/user-attachments/assets/3f04dda6-2bf2-4ffe-8f47-6c68d1e6fa26" />
+
 
 ---
 
