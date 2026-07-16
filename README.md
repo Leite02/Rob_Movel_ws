@@ -300,7 +300,8 @@ Ao finalizar:
 ```
 ROTA FINALIZADA
 ```
-![Uploading VID-20260716-WA0003(1).jpg…]()
+
+<img width="860" height="1080" alt="VID-20260716-WA0003(1)" src="https://github.com/user-attachments/assets/fe53d9dc-6974-42ef-baa0-af7353f536ae" />
 
 ---
 
